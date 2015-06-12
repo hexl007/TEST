@@ -14,3 +14,6 @@
 Route::get('/', function () {
     return view('welcome');
 });
+Route::get('sb/{name}',function($name){
+    echo 'SB'.$name;
+});
